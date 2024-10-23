@@ -1,0 +1,27 @@
+main{ /* formatação da página */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+}
+
+#quemsomos{ /*título da página*/
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000; 
+    width: 334px;
+    height: 65px;
+}
+
+h2{ /* texto */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    width: 687px;
+    height: 176px;
+    margin-bottom: 25px;
+    text-align: justify;
+}

@@ -1,0 +1,84 @@
+h2{ /*título da página */
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+main{ /* formatação do conteúdo da página*/
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section{ /* formatação da área do formulário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{ /* tamanho da área do formulário */
+    width: 415px;
+}
+
+fieldset{ /* linhas do formulário */
+    display: flex;
+    border: none;
+    margin-bottom: 20px;
+}
+
+label{ /* informações do formulário */
+    width: 124px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+input, textarea{ /*áreas de texto */
+    width: 419px;
+    height: 43px;   
+    background: #FFFFFF;
+    border: 1px solid #9F9F9F;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+textarea{ /*última mensagem */
+    width: 418px;
+    height: 160px;
+    left: 298px;
+    top: 472px;
+    background: #FFFFFF;
+    border: 1px solid #9F9F9F;
+}
+
+button{ /* botão de envio */
+    width: 141px;
+    height: 42px;
+    background: #7ED321;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C4701;
+    border: none;
+    margin-left: 420px;
+}
+
+img{ /* imagem */
+    margin-left: 150px;
+}

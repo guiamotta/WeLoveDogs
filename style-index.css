@@ -1,0 +1,40 @@
+main{ /* formatação do corpo da página */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.content{ /* conteúdo escrito */
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    width: 371px;
+    height: 351px;
+    color: #000000;
+}
+
+h2{ /* texto principal */
+    font-size: 48px; 
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+button{ /* botão de inscrição */
+    width: 220px;
+    height: 51px;
+    background: #7ED321;
+    border-radius: 15px;    
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #1C4701;
+    cursor: pointer;
+}
+
+.image{ /*imagem*/
+    margin-left: 50px;
+    margin-top: 50px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <!--info da guia-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-inscrever.css" />
+    <link rel="stylesheet" href="cabecalho.css" />
+
+    <title>Inscrição</title>
+
+</head>
+
+<body>
+     <!--info do cabeçalho-->
+     <header>
+        <a href="index.html" id="logo"><h1>we<span class="love">love</span>dogs</h1></a>
+        <ul class="nav-items">
+            <a href="quemsomos.html"><li>QUEM SOMOS</li></a>
+            <a href="blog.html"><li>BLOG</li></a>
+            <a href="inscrever.html" id="inscrever-btn"><li>INSCREVER</li></a>
+        </ul>
+    </header>  
+
+    <h2>Inscrição</h2>
+
+    <main>
+        <section>
+            <form>
+                <fieldset><!--dados do nome-->
+                    <label for="nome">Nome</label>
+                    <input type="nome" placeholder="Seu nome" required><br>
+                </fieldset>
+                <fieldset><!--dados da idade-->
+                    <label for="idade">Idade</label>
+                    <input type="idade" placeholder="18" required><br>
+                </fieldset>
+                <fieldset><!--dados do email-->
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="exemplo@exemplo" required><br>
+                </fieldset>
+                <fieldset><!--mensagem-->
+                    <label for="mensagem">Ama cachorros?</label>
+                    <textarea type="mensagem" placeholder="Mensagem" required></textarea>
+                </fieldset>
+                <a href="#"><button>Enviar</button></a>
+            </form>
+        </section>
+
+        <img src="imagens/palpitando.svg" alt="Homem com coração palpitando.">
+    </main>
+</body>
+</html>
